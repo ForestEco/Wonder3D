@@ -1,0 +1,16 @@
+
+How to run in Anaconda and alays activate the env for all resources:
+
+cd C:\Users\jsafr\PycharmProjects\pythonProject\Wonder3D
+conda activate myenv
+python gradio_app.py
+
+Enter the resulting address with your browser and play with the app. You can then download the results.
+RENAME The outputs SCENE folders as you go...
+
+
+Generate mesh and be sure to use an activated shell:
+cd ./instant-nsr-pl
+python launch.py --config configs/neuralangelo-ortho-wmask.yaml --gpu 0 --train dataset.root_dir=..\outputs\cropsize-240.0-cfg1.0/ dataset.scene=scene
+
+

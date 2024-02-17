@@ -187,3 +187,6 @@ render_results
 experiments/*
 ckpts/*
 neus/*
+
+#Large Models
+sam_pt/*
